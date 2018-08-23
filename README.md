@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+Ruby & Rails version
+* ruby 2.2.3
+* rails 5.0.7
 
 * System dependencies
+PostgreSQL >= 9.5.0
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* How to run the application
+- Ensure that your PostgreSQL up & running
+- Create database
+  `rake db:create`
+- Run migrations
+  `rake db:migrate`
+- Start Rails server
+  `rails s`
