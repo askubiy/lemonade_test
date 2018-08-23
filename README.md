@@ -20,6 +20,12 @@ PostgreSQL >= 9.5.0
 Ensure that your PostgreSQL up & running
 
 
+Install all gems
+
+
+`bundle install`
+
+
 Create database
 
 
